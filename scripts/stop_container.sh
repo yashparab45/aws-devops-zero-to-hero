@@ -1,3 +1,5 @@
 #!/bin/bash
 set -e
-echo "hi"
+
+# Stop the running container (if any)
+echo "Hi"
