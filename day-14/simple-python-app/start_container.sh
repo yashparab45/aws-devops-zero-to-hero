@@ -1,8 +1,4 @@
 #!/bin/bash
 set -e
-
-# Pull the Docker image from Docker Hub
-echo
-
-# Run the Docker image as a container
-echo
+docker build -t "yashparab45/simple-python-app:latest" .
+docker push -d -p 5000:5000 yashparab45/simple-python-app:latest
